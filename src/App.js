@@ -1,24 +1,40 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from "react";
+import Preloader from "../src/components/Pre";
+import Home from "./components/Home/Home";
+//import logo from './logo.svg';
+import Navbar from "./components/Navbar";
 import './App.css';
+import "./style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import ScrollToTop from "./components/ScrollToTop";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 
 function App() {
+  const [load, upadateLoad] = useState(true);
+  
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      upadateLoad(false);
+    }, 1200);
+    
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <Router>
+    <div>
+      <Preloader load = {load}/>
+      <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <Navbar/>
+      <ScrollToTop/>
+        <Switch>
+          <Route exact path="/"><Home/></Route>
+        </Switch>
+      </div>
     </div>
+    </Router>
   );
 }
 
