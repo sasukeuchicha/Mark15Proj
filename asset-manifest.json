@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7469ba3.css",
-    "main.js": "/static/js/main.028b5d38.js",
-    "static/js/787.cbbda64d.chunk.js": "/static/js/787.cbbda64d.chunk.js",
-    "static/media/how-you-doin-joey.gif": "/static/media/how-you-doin-joey.e2c8d11cc0eb564bea89.gif",
-    "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
-    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/avatar.svg": "/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
-    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
-    "index.html": "/index.html",
-    "main.c7469ba3.css.map": "/static/css/main.c7469ba3.css.map",
-    "main.028b5d38.js.map": "/static/js/main.028b5d38.js.map",
-    "787.cbbda64d.chunk.js.map": "/static/js/787.cbbda64d.chunk.js.map"
+    "main.css": "/Mark15Proj/static/css/main.faecc10d.css",
+    "main.js": "/Mark15Proj/static/js/main.1cccedad.js",
+    "static/js/787.cbbda64d.chunk.js": "/Mark15Proj/static/js/787.cbbda64d.chunk.js",
+    "static/media/how-you-doin-joey.gif": "/Mark15Proj/static/media/how-you-doin-joey.e2c8d11cc0eb564bea89.gif",
+    "static/media/home-main.svg": "/Mark15Proj/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/home-bg.jpg": "/Mark15Proj/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/Mark15Proj/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/pre.svg": "/Mark15Proj/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/Mark15Proj/index.html",
+    "main.faecc10d.css.map": "/Mark15Proj/static/css/main.faecc10d.css.map",
+    "main.1cccedad.js.map": "/Mark15Proj/static/js/main.1cccedad.js.map",
+    "787.cbbda64d.chunk.js.map": "/Mark15Proj/static/js/787.cbbda64d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7469ba3.css",
-    "static/js/main.028b5d38.js"
+    "static/css/main.faecc10d.css",
+    "static/js/main.1cccedad.js"
   ]
 }
