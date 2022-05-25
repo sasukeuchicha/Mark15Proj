@@ -29,9 +29,7 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
       <Navbar/>
       <ScrollToTop/>
-        <Switch>
           <Route exact path="/"><Home/></Route>
-        </Switch>
       </div>
     </div>
     </Router>
